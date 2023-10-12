@@ -2,11 +2,13 @@
     "scripts": {
         "dfx_install": "DFX_VERSION=0.15.0 sh -ci \"$(curl -fsSL https://sdk.dfinity.org/install.sh)\"",
         "replica_start": "dfx start --background",
+        "replica_clean_start": "dfx start --background --clean",
         "replica_stop": "dfx stop",
         "canister_deploy_local": "dfx deploy token",
         "canister_deploy_mainnet": "dfx deploy --network ic token",
         "canister_uninstall": "dfx canister uninstall-code token",
         "canister_call_get_message": "dfx canister call token getMessage",
+        "canister_call_approve": "dfx canister call token approve '(\"be2us-64aaa-aaaaa-qaabq-cai\",1000)'",
         "canister_call_set_message": "dfx canister call token setMessage '(\"Hello world!\")'"
     },
     "dependencies": {

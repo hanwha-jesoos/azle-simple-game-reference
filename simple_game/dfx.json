@@ -1,13 +1,12 @@
 {
-    "canisters": {
-        "simple_game": {
-            "type": "custom",
-            "build": "npx azle simple_game",
-            "root": "src",
-            "ts": "src/index.ts",
-            "candid": "src/index.did",
-            "wasm": ".azle/simple_game/simple_game.wasm.gz"
-        }
+  "canisters": {
+    "simple_game": {
+      "type": "custom",
+      "main": "src/index.ts",
+      "candid": "src/index.did",
+      "build": "npx azle simple_game",
+      "wasm": ".azle/simple_game/simple_game.wasm",
+      "gzip": true
     }
+  }
 }
-

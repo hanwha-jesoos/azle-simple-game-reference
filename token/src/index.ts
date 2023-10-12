@@ -10,7 +10,7 @@ import {
   bool,
   query,
   Opt,
-} from "azle";
+} from 'azle';
 
 export const Allowances = Record({
   spender: text,
