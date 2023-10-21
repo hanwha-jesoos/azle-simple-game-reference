@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f2dac7e-02ae-4b0e-bfe4-633a24957976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/dfx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/dfxcmd.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/dfxcmd.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/src/index.did" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/from_simple_game/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_game/cmd.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simple_game/dfxcmd.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_game/dfx.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_game/dfx.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_game/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/simple_game/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_game/src/index.did" beforeDir="false" afterPath="$PROJECT_DIR$/simple_game/src/index.did" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple_game/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/simple_game/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/token/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/token/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/token/src/index.ts" afterDir="false" />
+    <list default="true" id="6f2dac7e-02ae-4b0e-bfe4-633a24957976" name="Changes" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="maemil &lt;youjinlee1997@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -113,8 +101,17 @@
       <option name="presentableId" value="Default" />
       <updated>1697862142373</updated>
       <workItem from="1697862143525" duration="4304000" />
-      <workItem from="1697866907408" duration="6498000" />
+      <workItem from="1697866907408" duration="6786000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <option name="closed" value="true" />
+      <created>1697873450220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697873450220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +120,21 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v17 -&gt; v18 upgrade" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
